@@ -1,0 +1,82 @@
+body {
+	font-family: verdana;
+	color: #515151;
+	margin:0;
+	background: #F6F6F6;
+}
+
+span {
+	float: left;
+	width: 44%;
+	margin-left: 4%;
+	background: #FFF;
+	border: 1px solid #D9D9D9;
+	border-radius: 5px;
+}
+
+h1 {
+	color: #4E5860;
+	font-weight: 100;
+	padding: 0px 0px 24px 2%;
+	box-shadow: 0px 2px 3px #E6E6E6;
+}
+
+/* ======== HEADER ========= */
+
+.navbar * {
+	-webkit-transition: 0.3s linear;
+	-moz-transition: 0.3s linear;
+	-o-transition: 0.3s linear;
+	transition: 0.3s linear;
+}
+
+#navCust {
+	border-bottom: 5px solid #F6F6F6;
+	box-shadow: none;
+	opacity: 0.9;
+	padding: 10px 0 5px;
+}
+
+.brand {
+	padding: 10px 13.9%;
+}
+
+/* ======== BODY ========= */
+
+.post {
+	display: block;
+	margin: 5px 0;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.post:active {
+	color: #666;
+}
+
+.post div {
+	padding: 15px;
+	display: table-cell;
+}
+
+.post div:first-child {
+	vertical-align: middle;
+}
+
+.post div:nth-child(2) {
+	width: 100%;
+}
+
+.post a {
+	font-size: 1em;
+	text-decoration: none;
+	color: #515151;
+}
+
+.post a:nth-child(4) {
+	font-size: 0.8em;
+	color: #666;
+}
+
+bdi {
+	color: #00B4FF;
+}
